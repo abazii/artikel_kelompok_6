@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Key Distribution: Masa Depan Keamanan Jaringan</title>
+    
+    <!-- Google Fonts: Inter for UI, Merriweather for Article reading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS with Typography Plugin -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6', // Teal/Cyan for Quantum vibe
+                            600: '#0d9488',
+                            900: '#134e4a',
+                            950: '#042f2e', // Deep Space Blue
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Custom image overlay gradient */
+        .hero-gradient {
+            background: linear-gradient(to bottom, rgba(4, 47, 46, 0.7), rgba(4, 47, 46, 0.95));
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans selection:bg-brand-500 selection:text-white">
+
+    <!-- Navbar Minimalis -->
+    <nav class="bg-white/80 backdrop-blur-md fixed w-full z-50 border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <div class="w-8 h-8 rounded bg-gradient-to-br from-brand-500 to-blue-600 flex items-center justify-center text-white font-bold text-xl">
+                        Q
+                    </div>
+                    <span class="font-bold text-xl tracking-tight text-slate-900">Cyber<span class="text-brand-600">Net</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-slate-600 hover:text-brand-600 font-medium transition-colors">Beranda</a>
+                    <a href="#" class="text-brand-600 font-medium border-b-2 border-brand-600">Artikel IT</a>
+                    <a href="#" class="text-slate-600 hover:text-brand-600 font-medium transition-colors">Tentang Kami</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <!-- Background Image -->
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Cyber Security Background" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 hero-gradient"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-brand-500/20 text-brand-100 border border-brand-500/30 text-sm font-semibold tracking-wider mb-6 uppercase shadow-sm">
+                Keamanan Jaringan & Kriptografi
+            </span>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-tight mb-6 drop-shadow-lg">
+                Ancaman "Kiamat Kriptografi": Mengenal <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-100 to-brand-500">Quantum Key Distribution</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-8 font-light">
+                Bagaimana Hukum Fisika Alam Semesta akan menggantikan algoritma matematika sebagai benteng pertahanan utama arsitektur jaringan komputer masa depan.
+            </p>
+            
+            <!-- Author Info -->
+            <div class="flex items-center justify-center space-x-4 mt-8">
+                <div class="w-12 h-12 rounded-full border-2 border-brand-500 shadow-md bg-slate-800 flex items-center justify-center text-brand-100 font-bold text-lg">
+                    K6
+                </div>
+                <div class="text-left">
+                    <p class="text-white font-medium">Kelompok 6 IF-C</p>
+                    <p class="text-brand-100 text-sm">Dipublikasikan pada 16 April 2026</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-16 bg-slate-50 relative z-20">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Article Body using Tailwind Typography -->
+            <article class="prose prose-lg md:prose-xl prose-slate prose-a:text-brand-600 hover:prose-a:text-brand-800 prose-headings:font-bold prose-headings:tracking-tight prose-img:rounded-2xl prose-img:shadow-xl font-serif leading-relaxed">
+                
+                <p class="lead text-xl text-slate-600 font-sans mb-8">
+                    Di era digital yang serba terhubung ini, jaringan komputer merupakan urat nadi dari hampir seluruh aspek kehidupan manusia. Mulai dari transaksi perbankan, komunikasi pemerintahan, hingga pertukaran pesan pribadi, semuanya bergantung pada infrastruktur jaringan yang aman. Selama beberapa dekade terakhir, kita mengandalkan protokol keamanan seperti SSL/TLS, IPsec, dan algoritma enkripsi publik (seperti RSA dan ECC) untuk melindungi data yang melintasi kabel fiber optik dan sinyal nirkabel.
+                </p>
+
+                <p>
+                    Namun, tahukah Anda bahwa seluruh fondasi keamanan jaringan yang kita gunakan saat ini sedang berada di ambang ancaman besar? Ancaman tersebut tidak datang dari <em>hacker</em> konvensional atau *malware* biasa, melainkan dari sebuah lompatan teknologi raksasa bernama <strong>Komputer Kuantum (Quantum Computer)</strong>.
+                </p>
+
+                <!-- HYPERLINK WAJIB KE UPNYK -->
+                <div class="bg-brand-50 border-l-4 border-brand-500 p-6 my-8 rounded-r-lg shadow-sm font-sans">
+                    <p class="m-0 text-slate-700">
+                        Berbagai institusi pendidikan dan penelitian teknologi di Indonesia, termasuk civitas akademika di 
+                        <a href="https://www.upnyk.ac.id/" target="_blank" rel="noopener" class="font-bold text-brand-600 hover:text-brand-800 transition-colors no-underline border-b-2 border-brand-200 hover:border-brand-600">
+                            Universitas Pembangunan Nasional Veteran Yogyakarta
+                        </a>, terus mendorong mahasiswanya untuk mengkaji paradigma baru dalam pertahanan siber guna menghadapi disrupsi teknologi komputasi ini. Salah satu solusi paling revolusioner yang saat ini sedang dikembangkan oleh peneliti jaringan dunia adalah <strong>Quantum Key Distribution (QKD)</strong>.
+                    </p>
+                </div>
+
+                <p>
+                    Mari kita bahas secara mendalam mengapa jaringan komputer saat ini sedang terancam, apa itu QKD, dan bagaimana teknologi ini akan mengubah arsitektur jaringan komputer secara radikal di masa depan.
+                </p>
+
+                <hr class="my-10 border-slate-200">
+
+                <h2 class="font-sans text-3xl text-slate-900 mt-12 mb-6">Mengapa Jaringan Komputer Saat Ini Terancam? (The Quantum Threat)</h2>
+
+                <p>
+                    Sebelum kita masuk ke solusi, kita harus memahami anatomi masalahnya. Sistem keamanan jaringan modern—seperti saat Anda mengakses website HTTPS bergembok hijau atau menggunakan *Virtual Private Network* (VPN)—sangat bergantung pada konsep "Kriptografi Kunci Publik" (Public Key Cryptography).
+                </p>
+                <p>
+                    Algoritma populer seperti RSA bekerja berdasarkan sebuah asumsi matematis yang sangat sederhana namun kokoh: <strong>sangat mudah bagi komputer untuk mengalikan dua bilangan prima raksasa, tetapi butuh waktu ribuan bahkan jutaan tahun bagi komputer konvensional tercepat di dunia untuk memfaktorkan kembali hasil perkalian tersebut menjadi dua bilangan prima asalnya.</strong>
+                </p>
+
+                <figure class="my-12">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Chandelier Komputer Kuantum" />
+                    <figcaption class="text-center font-sans text-sm text-slate-500">Inti "Chandelier" pendingin dari sebuah Komputer Kuantum modern. Komputer ini memproses informasi menggunakan Qubit, bukan Bit biner konvensional.</figcaption>
+                </figure>
+
+                <p>
+                    Faktorisasi matematis inilah yang menjadi gembok digital dari data Anda. Selama komputer konvensional membutuhkan waktu jutaan tahun untuk menebak kuncinya, data Anda dianggap aman.
+                </p>
+                <p>
+                    Bencana mulai terlihat pada tahun 1994 ketika seorang matematikawan bernama Peter Shor menciptakan <strong>Algoritma Shor</strong>. Algoritma ini membuktikan secara teoritis bahwa jika sebuah Komputer Kuantum dengan kapasitas <em>qubit</em> (quantum bit) yang stabil berhasil dibangun, komputer tersebut dapat memecahkan algoritma enkripsi asimetris seperti RSA dan ECC hanya dalam hitungan menit. Komputer kuantum tidak mencoba memecahkan kunci satu per satu (brute-force), melainkan memproses jutaan probabilitas secara bersamaan (superposisi).
+                </p>
+
+                <h3 class="font-sans text-2xl mt-8">Ancaman "Harvest Now, Decrypt Later"</h3>
+                <p>
+                    Fenomena pemecahan enkripsi masal ini sering disebut oleh para pakar keamanan siber sebagai <strong>"Q-Day"</strong> (Hari Kuantum) atau Kiamat Kriptografi. Bayangkan sebuah hari di mana seluruh enkripsi jaringan perbankan, rahasia militer, otentikasi blockchain, dan komunikasi global dapat dibongkar secara instan.
+                </p>
+                <p>
+                    Lebih mengerikannya lagi, kiamat tersebut sebenarnya sudah dimulai perlahan hari ini melalui strategi <em>Harvest Now, Decrypt Later</em> (Panen Sekarang, Dekripsi Nanti). Kelompok <em>hacker</em> yang disponsori oleh intelijen negara asing (State-sponsored hackers) diketahui saat ini sedang menyedot dan merekam *traffic* data terenkripsi yang melintas di jaringan internet (lateral movement). Mereka memang belum bisa membuka file tersebut sekarang, tetapi mereka menyimpannya di *data center* raksasa hingga komputer kuantum tersedia 5-10 tahun ke depan untuk mendekripsinya.
+                </p>
+
+                <p>
+                    Oleh karena itu, arsitektur jaringan komputer membutuhkan paradigma baru. Kita tidak bisa lagi berlindung di balik kerumitan matematika semata, melainkan harus bersandar pada perlindungan fisik yang absolut: <strong>Hukum Fisika Kuantum Alam Semesta</strong>. Di sinilah Quantum Key Distribution (QKD) muncul sebagai juru selamat.
+                </p>
+
+                <hr class="my-10 border-slate-200">
+
+                <h2 class="font-sans text-3xl text-slate-900 mt-12 mb-6">Apa itu Quantum Key Distribution (QKD)?</h2>
+
+                <p>
+                    Quantum Key Distribution (QKD) adalah sebuah metode komunikasi aman yang mengimplementasikan protokol kriptografi menggunakan prinsip-prinsip mekanika kuantum. Secara sederhana, QKD memungkinkan dua titik akhir dalam jaringan (misalnya Server Alice dan Client Bob) untuk menghasilkan kunci rahasia acak secara bersama-sama, yang dijamin hanya diketahui oleh mereka berdua. Kunci ini kemudian digunakan untuk mengenkripsi dan mendekripsi payload data yang dikirim melalui jalur internet (TCP/IP) biasa.
+                </p>
+
+                <div class="bg-slate-800 text-slate-100 p-6 rounded-2xl shadow-xl my-8 font-sans">
+                    <h3 class="text-brand-400 mt-0 mb-4 border-b border-slate-700 pb-2">Dua Pilar Fisika Kuantum dalam QKD</h3>
+                    <ul class="space-y-4 m-0 text-slate-300">
+                        <li><strong class="text-white">1. Superposisi Kuantum:</strong> Sebuah partikel cahaya (foton) dapat berada di beberapa keadaan/polarisasi sekaligus sampai ia diukur atau diobservasi oleh alat pengukur.</li>
+                        <li><strong class="text-white">2. Teorema Tanpa-Kloning & Ketidakpastian Heisenberg:</strong> Dalam fisika kuantum, sangat mustahil untuk mengukur atau "menyalin" status sebuah sistem kuantum yang tidak diketahui tanpa mengubah atau menghancurkannya. Tindakan "melihat" adalah tindakan yang akan merusak partikel tersebut.</li>
+                    </ul>
+                </div>
+
+                <p>
+                    Kekuatan utama dan keunikan paling mutlak dari arsitektur jaringan QKD terletak pada kemampuannya untuk mendeteksi secara pasti kehadiran penyusup atau <em>hacker</em> (Mitm - Man in The Middle) yang mencoba mengintip di tengah kabel fiber optik.
+                </p>
+
+                <h3 class="font-sans text-2xl mt-8">Bagaimana Protokol BB84 Bekerja di Jaringan Fiber Optik?</h3>
+                
+                <figure class="my-10">
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Kabel Fiber Optik" />
+                    <figcaption class="text-center font-sans text-sm text-slate-500">Infrastruktur kabel fiber optik modern digunakan sebagai medium transmisi foton tunggal dalam implementasi jaringan QKD.</figcaption>
+                </figure>
+
+                <p>
+                    Mari kita bedah implementasi jaringan protokol QKD paling pionir, yaitu <strong>Protokol BB84</strong>, yang diusulkan oleh Charles Bennett dan Gilles Brassard pada tahun 1984. Berikut adalah topologi logisnya:
+                </p>
+
+                <ol class="font-sans text-slate-700 space-y-4">
+                    <li><strong>Pengiriman Foton (Fase Quantum):</strong> Server (Alice) ingin membuat kunci enkripsi dengan Client (Bob). Alih-alih mengirim sinyal listrik, Alice menembakkan foton tunggal (partikel cahaya individual) satu per satu melalui kabel <em>fiber optik dark fiber</em> ke arah Bob. Alice memberikan "polarisasi" (arah getaran cahaya: vertikal, horizontal, diagonal kanan/kiri) secara acak pada setiap foton tersebut.</li>
+                    <li><strong>Penerimaan Foton:</strong> Di ujung kabel jaringan, Bob menggunakan detektor foton sensitif dengan filter acak (rektilinier atau diagonal) untuk menangkap cahaya tersebut.</li>
+                    <li><strong>Proses *Sifting* (Fase Klasik):</strong> Setelah semua foton diterima, Alice dan Bob menggunakan jalur komunikasi internet tradisional untuk saling mencocokkan. Mereka tidak menyebutkan *data* apa yang didapat, mereka hanya mendiskusikan <em>jenis filter</em> apa yang tadi mereka gunakan. Jika filter Bob cocok dengan polarisasi Alice, data foton tersebut dipertahankan menjadi bit Kunci Kriptografi. Jika salah, dibuang.</li>
+                    <li><strong>Deteksi Intrusi yang Ajaib (The Quantum Magic):</strong> Bagaimana jika ada hacker (Eve) yang mencoba memasang alat *sniffing* fisik di tengah kabel fiber optik tersebut? Berdasarkan hukum Ketidakpastian Heisenberg, tindakan Eve mencegat foton untuk "dibaca" akan merusak polarisasi asli foton tersebut secara permanen. Ketika foton rusak ini tiba di tempat Bob, sistem pemantauan Alice dan Bob akan mendeteksi lonjakan tingkat *error* jaringan (Quantum Bit Error Rate/QBER).</li>
+                    <li><strong>Fail-Safe Mechanism:</strong> Jika QBER melonjak di atas batas wajar (biasanya ~11%), sistem jaringan QKD langsung mengetahui bahwa koneksi sedang disadap. Jaringan akan secara otomatis membatalkan pembuatan kunci enkripsi, menolak pengiriman *payload* data sensitif, dan mencoba merutekan koneksi ke jalur *fiber* alternatif.</li>
+                </ol>
+
+                <p>
+                    Dengan kata lain, dalam topologi jaringan yang dilindungi QKD, aktivitas <strong>penyadapan fisik secara diam-diam adalah hal yang mustahil dilakukan tanpa mengaktifkan alarm alam semesta.</strong> 
+                </p>
+
+                <hr class="my-10 border-slate-200">
+
+                <h2 class="font-sans text-3xl text-slate-900 mt-12 mb-6">Implementasi Jaringan QKD di Dunia Nyata</h2>
+
+                <p>
+                    Konsep QKD mungkin terdengar seperti film fiksi ilmiah (Sci-Fi) karya Christopher Nolan, namun implementasinya di dunia nyata pada arsitektur LAN, MAN (Metropolitan Area Network), hingga satelit sudah mulai komersial hari ini.
+                </p>
+
+                <h3 class="font-sans text-2xl mt-8">1. Quantum Key Distribution Network (QKDN) berbasis Fiber Optik</h3>
+                <p>
+                    Raksasa telekomunikasi dan *hardware* jaringan seperti Toshiba, ID Quantique (Swiss), dan QuantumCTek (Tiongkok) telah merilis perangkat komersial QKD. Perangkat ini biasanya berbentuk *rack-mount appliance* ukuran 1U atau 2U yang dipasang berdampingan dengan router Cisco/Juniper di *Data Center*. 
+                </p>
+                <p>
+                    Dalam topologi perbankan modern, misalnya antara Kantor Pusat Bank A dengan Data Center Disaster Recovery-nya, mereka menggunakan "Dark Fiber" (kabel fiber optik khusus *point-to-point*) untuk mendistribusikan kunci kuantum secara aman. Setelah kunci aman tercipta, kunci kuantum ini dirotasi puluhan kali per detik (*Key Rotation*) dan disuntikkan ke dalam *Hardware Security Module* (HSM) atau Router VPN IPsec standar untuk melakukan enkripsi AES-256 pada lalu lintas transaksi uang nasabah.
+                </p>
+
+                <h3 class="font-sans text-2xl mt-8">2. Lompatan Jaringan Satelit Kuantum</h3>
+                
+                <figure class="my-10">
+                    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Satelit luar angkasa mengorbit bumi" />
+                    <figcaption class="text-center font-sans text-sm text-slate-500">Masa depan Quantum Internet akan bergantung pada jaringan konstelasi satelit LEO (Low Earth Orbit) untuk mengatasi keterbatasan jarak kabel optik bawah laut.</figcaption>
+                </figure>
+
+                <p>
+                    Batas teknis terbesar pengiriman foton melalui kabel fiber optik konvensional adalah <em>attenuation</em> atau pelemahan sinyal. Foton kuantum sangatlah rapuh. Jika dikirim melebih jarak 150 hingga 250 kilometer, partikel cahaya tersebut kemungkinan besar akan lenyap diserap oleh kaca fiber. Berbeda dengan sinyal internet standar yang bisa diperkuat menggunakan <em>Repeater</em>, kita <strong>tidak boleh</strong> memasang repeater optik dalam sistem kuantum, karena memperkuat sinyal berarti meng-kloning/mengukur foton (melanggar teorama larangan *no-cloning*!).
+                </p>
+                <p>
+                    Untuk menghubungkan antar benua tanpa repeater kabel laut, peneliti menggunakan pendekatan luar angkasa. Pada tahun 2016, Tiongkok meluncurkan Satelit Micius (Mozi). Satelit ini mengorbit bumi dan bertindak sebagai stasiun *relay* kuantum. Satelit menembakkan laser berisi foton langsung melewati ruang hampa angkasa ke stasiun penerima di bumi (misalnya menghubungkan kota Beijing dengan Wina di Austria yang berjarak 7.000 KM). Keberhasilan *video call* terenkripsi kuantum antar benua ini mencatat sejarah baru embrio <strong>Quantum Internet Global</strong>.
+                </p>
+
+                <hr class="my-10 border-slate-200">
+
+                <h2 class="font-sans text-3xl text-slate-900 mt-12 mb-6">Tantangan Jaringan dan Transisi Hybrid (PQC)</h2>
+
+                <p>
+                    Apakah esok hari *router* Wi-Fi rumah kita akan langsung diganti perangkat kuantum? Belum tentu. Meski QKD menawarkan keamanan *unconditionally secure*, adopsi massalnya terhambat oleh realitas komersial dan rekayasa jaringan:
+                </p>
+
+                <ul class="space-y-3 font-sans text-slate-700">
+                    <li><strong>Capex Infrastruktur Fantastis:</strong> Harga perangkat *node* QKD beserta penyewaan *dedicated dark fiber* masih sangat mahal (berkisar ratusan ribu dollar). Saat ini klien utamanya baru pemerintah, militer, dan bank sentral (*Central Banks*).</li>
+                    <li><strong>Quantum Repeater Belum Sempurna:</strong> Karena belum adanya penemuan "Quantum Repeater" komersial yang stabil, topologi jaringan QKD jarak jauh terestrial masih bergantung pada sistem <em>Trusted Node</em>. Jika ada *hacker* yang bisa membobol fisik stasiun *Trusted Node* tersebut, rantai kunci tetap bisa diretas.</li>
+                </ul>
+
+                <p>
+                    Untuk menjembatani transisi mahir ini, pakar jaringan saat ini mendorong kombinasi antara perangkat keras QKD dengan solusi perangkat lunak yang disebut <strong>Post-Quantum Cryptography (PQC)</strong>. Badan standardisasi teknologi AS (NIST) baru-baru ini meresmikan algoritma matematis hibrida baru (seperti CRYSTALS-Kyber). Berbeda dengan QKD yang mahal dan butuh alat khusus, PQC hanyalah algoritma *software* *upgradeable* yang strukturnya didesain sebegitu rumit (seperti *lattice-based math*) sehingga komputer kuantum masa depan akan tersedak saat memecahkannya. Jaringan masa depan akan bersifat "Hybrid": menggunakan PQC untuk otentikasi awal di layer aplikasi, dan QKD untuk distribusi *session key* di layer fisik.
+                </p>
+
+                <h2 class="font-sans text-3xl text-slate-900 mt-12 mb-6">Kesimpulan: Bersiap untuk Quantum Era</h2>
+
+                <p>
+                    Infrastruktur Jaringan komputer dunia sedang memasuki masa transisi paling krusial semenjak kelahiran ARPANET. Kemunculan komputer kuantum bukan lagi sekadar inovasi *processing power*, melainkan ancaman eksistensial bagi kerahasiaan data umat manusia. 
+                </p>
+                <p>
+                    Teknologi Quantum Key Distribution (QKD) menawarkan secercah harapan dengan mengubah pondasi cara kita mengamankan jaringan; berpindah dari sekadar gembok rumus matematika yang lambat laun akan usang, menjadi gembok hukum partikel fisika alam semesta yang absolut tak tertembus. 
+                </p>
+                
+                <div class="bg-brand-900 text-brand-50 p-6 md:p-8 rounded-2xl shadow-xl mt-10 mb-8 font-sans">
+                    <p class="m-0 text-lg">
+                        Bagi para akademisi, mahasiswa jurusan Informatika/Cyber Security, dan praktisi infrastruktur jaringan IT di Indonesia, merangkul dan meneliti paradigma hibrida ini bukanlah sebuah pilihan opsional, melainkan keharusan untuk mempertahankan kedaulatan data nasional. Di masa yang akan datang, keandalan jaringan komputer (Networking) tidak lagi hanya diukur dari kapasitas kecepatan transfer <em>bandwidth</em> (Gbps), melainkan dari bagaimana fisika foton cahaya mampu menari dalam status superposisi untuk melindungi hak privasi kita di dunia maya yang tanpa batas.
+                    </p>
+                </div>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 pt-16 pb-8 border-t-4 border-brand-500 font-sans">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="text-center md:text-left">
+                    <div class="flex items-center justify-center md:justify-start gap-2 mb-4">
+                        <div class="w-6 h-6 rounded bg-gradient-to-br from-brand-500 to-blue-600 flex items-center justify-center text-white font-bold text-xs">
+                            Q
+                        </div>
+                        <span class="font-bold text-lg tracking-tight text-white">Cyber<span class="text-brand-500">Net</span></span>
+                    </div>
+                    <p class="text-slate-400 text-sm max-w-sm">
+                        Portal edukasi dan wawasan terdepan seputar infrastruktur IT, Keamanan Siber, dan Teknologi Masa Depan di Indonesia.
+                    </p>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-slate-400 text-sm mb-4">
+                        Didukung oleh riset akademis dari <br/>
+                        <a href="https://www.upnyk.ac.id/" target="_blank" rel="noopener" class="text-brand-400 hover:text-brand-300 transition-colors font-medium">Universitas Pembangunan Nasional "Veteran" Yogyakarta</a>
+                    </p>
+                    <div class="flex justify-center md:justify-end space-x-4 mt-4">
+                        <a href="#" class="text-slate-500 hover:text-white transition-colors">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/></svg>
+                        </a>
+                        <a href="#" class="text-slate-500 hover:text-white transition-colors">
+                            <span class="sr-only">GitHub</span>
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
+                <p>&copy; 2026 CyberNet. Seluruh hak cipta dilindungi.</p>
+                <div class="mt-4 md:mt-0 space-x-4">
+                    <a href="#" class="hover:text-white transition-colors">Kebijakan Privasi</a>
+                    <a href="#" class="hover:text-white transition-colors">Syarat Ketentuan</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
