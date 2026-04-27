@@ -191,25 +191,25 @@
     <!-- Main Content Wrapper -->
     <div id="main-content" class="sidebar-open min-h-screen flex flex-col relative z-10">
         
-        <!-- Header & Dropdown Tema (Compact) -->
+        <!-- Header & Dropdown Tema (Compact & Mobile Fix) -->
         <header class="bg-white/80 dark:bg-slate-900/80 aesthetic:bg-cream/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 aesthetic:border-sage-light/20 sticky top-0 z-50 transition-all duration-300">
-            <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-                <div class="flex items-center gap-4">
-                    <button id="toggle-sidebar" class="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 aesthetic:hover:bg-blush/30 rounded-lg text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark transition-colors">
+            <div class="max-w-5xl mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+                <div class="flex items-center gap-2 sm:gap-4">
+                    <button id="toggle-sidebar" class="p-2 -ml-2 sm:ml-0 hover:bg-slate-100 dark:hover:bg-slate-800 aesthetic:hover:bg-blush/30 rounded-lg text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark transition-colors">
                         <i data-lucide="menu" class="w-6 h-6"></i>
                     </button>
-                    <div class="h-6 w-[1px] bg-slate-200 dark:bg-slate-700 aesthetic:bg-sage-light/30"></div>
-                    <span class="font-extrabold tracking-tight text-slate-800 dark:text-white aesthetic:text-sage aesthetic:font-serif text-sm md:text-base uppercase">Kelompok 6</span>
+                    <div class="h-5 sm:h-6 w-[1px] bg-slate-200 dark:bg-slate-700 aesthetic:bg-sage-light/30"></div>
+                    <span class="font-extrabold tracking-tight text-slate-800 dark:text-white aesthetic:text-sage aesthetic:font-serif text-xs sm:text-sm md:text-base uppercase truncate max-w-[120px] sm:max-w-none">Kelompok 6</span>
                 </div>
                 
-                <div class="flex items-center gap-3">
+                <div class="flex items-center gap-2 sm:gap-3">
                     <div class="hidden md:flex items-center gap-3 text-xs font-semibold text-slate-500 dark:text-slate-400 aesthetic:text-sage-dark uppercase tracking-wider">
                         <span>Informatika UPNVY</span>
                         <span class="px-2 py-0.5 bg-blue-600 dark:bg-blue-500 aesthetic:bg-blush aesthetic:text-sage-dark text-white rounded">2026</span>
                     </div>
                     
                     <!-- Dropdown Tema (Tidak makan tempat) -->
-                    <div class="relative ml-2">
+                    <div class="relative ml-0 sm:ml-2">
                         <button id="theme-menu-btn" class="p-2 rounded-full bg-slate-100 dark:bg-slate-800 aesthetic:bg-sage/10 hover:bg-slate-200 dark:hover:bg-slate-700 aesthetic:hover:bg-blush/50 transition-all flex items-center justify-center border border-transparent aesthetic:border-sage-light/30">
                             <i data-lucide="palette" class="w-4.5 h-4.5 text-slate-600 dark:text-slate-300 aesthetic:text-sage"></i>
                         </button>
@@ -232,18 +232,18 @@
         </header>
 
         <!-- Main Article -->
-        <main class="max-w-4xl mx-auto px-6 py-12 flex-1">
+        <main class="max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12 flex-1 w-full">
             
             <!-- Hero Title Section -->
             <div class="mb-12 text-center">
                 <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-50 dark:bg-blue-900/30 aesthetic:bg-blush text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark rounded-full text-xs font-bold mb-6 transition-all">
                     <i data-lucide="satellite" class="w-3 h-3"></i> ANALISIS TEKNOLOGI SATELIT
                 </div>
-                <h1 class="text-4xl md:text-6xl font-black text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif leading-tight mb-8 transition-all">
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif leading-tight mb-8 transition-all">
                     Analisis Teknologi Jaringan Komputer Berbasis Satelit pada Starlink
                 </h1>
                 
-                <div class="flex flex-wrap justify-center gap-6 text-sm text-slate-500 dark:text-slate-400 aesthetic:text-sage-light font-medium italic">
+                <div class="flex flex-wrap justify-center gap-4 md:gap-6 text-xs md:text-sm text-slate-500 dark:text-slate-400 aesthetic:text-sage-light font-medium italic">
                     <div class="flex items-center gap-2">
                         <i data-lucide="calendar" class="w-4 h-4"></i>
                         <span>Semester Genap 2025/2026</span>
@@ -258,24 +258,24 @@
             <div class="content-body">
                 
                 <!-- Image Header -->
-                <div class="mb-12 rounded-[2.5rem] overflow-hidden shadow-2xl shadow-blue-900/10 aesthetic:shadow-sage-dark/10 border border-slate-200 dark:border-slate-800 aesthetic:border-4 aesthetic:border-white transition-all">
-                    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=2000" alt="Ilustrasi Satelit" class="w-full h-[450px] object-cover hover:scale-105 transition-transform duration-1000">
+                <div class="mb-12 rounded-[2rem] md:rounded-[2.5rem] overflow-hidden shadow-2xl shadow-blue-900/10 aesthetic:shadow-sage-dark/10 border border-slate-200 dark:border-slate-800 aesthetic:border-4 aesthetic:border-white transition-all">
+                    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=2000" alt="Ilustrasi Satelit" class="w-full h-[300px] md:h-[450px] object-cover hover:scale-105 transition-transform duration-1000">
                     <div class="p-4 bg-white dark:bg-slate-900 aesthetic:bg-white text-xs text-slate-500 dark:text-slate-400 aesthetic:text-sage italic text-center transition-all">
                         Ilustrasi Jaringan Satelit LEO (Low Earth Orbit) untuk Konektivitas Global.
                     </div>
                 </div>
 
                 <!-- 1. Pendahuluan -->
-                <section id="pendahuluan" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30 transition-all">
-                    <h2 class="text-2xl mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold flex items-center gap-3">1. Pendahuluan</h2>
-                    <div class="space-y-4 text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">
+                <section id="pendahuluan" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30 transition-all">
+                    <h2 class="text-xl md:text-2xl mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold flex items-center gap-3">1. Pendahuluan</h2>
+                    <div class="space-y-4 text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark text-sm md:text-base">
                         <p>
                             Di era digital saat ini, internet menjadi kebutuhan utama dalam kehidupan sehari-hari, seperti komunikasi, pendidikan, dan pekerjaan. Meskipun internet telah berkembang pesat di wilayah perkotaan, tetapi tidak semua wilayah dapat menikmati akses internet, seperti pegunungan, pulau terpencil, dan daerah dengan infrastruktur terbatas sering kali sulit dijangkau oleh jaringan konvensional.
                         </p>
                         <p>
                             Salah satu jaringan konvensional adalah fiber optic. Fiber optic menawarkan kecepatan tinggi dan stabilitas yg baik, tetapi memiliki keterbatasan dalam hal jangkauan. Selain jangkauan, fiber optic juga memerlukan investasi besar dan waktu yang lama, sehingga kurang efisien untuk wilayah terpencil dan penduduk yang sedikit. Selain itu, jaringan seluler juga bergantung pada pembangunan menara pemancar (base station) yang sulit menjangkau wilayah terpencil dan membutuhkan biaya cukup besar juga.
                         </p>
-                        <div class="p-6 bg-blue-50/50 dark:bg-blue-900/10 aesthetic:bg-blush/20 rounded-2xl border-l-4 border-blue-600 aesthetic:border-sage my-6">
+                        <div class="p-5 md:p-6 bg-blue-50/50 dark:bg-blue-900/10 aesthetic:bg-blush/20 rounded-2xl border-l-4 border-blue-600 aesthetic:border-sage my-6">
                             <p class="text-slate-800 dark:text-slate-200 aesthetic:text-sage-dark font-medium italic">
                                 Permasalahan tersebut dapat diselesaikan dengan adanya teknologi jaringan berbasis satelit, salah satunya adalah Starlink. Teknologi ini menawarkan akses internet dengan jangkauan yang luas tanpa memerlukan infrastuktur kabel yang kompleks.
                             </p>
@@ -287,15 +287,15 @@
                 </section>
 
                 <!-- 2. Pengertian Jaringan Komputer -->
-                <section id="pengertian" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
-                    <h2 class="text-2xl mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">2. Pengertian Jaringan Komputer</h2>
-                    <p class="mb-6 text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">
+                <section id="pengertian" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
+                    <h2 class="text-xl md:text-2xl mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">2. Pengertian Jaringan Komputer</h2>
+                    <p class="mb-6 text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark text-sm md:text-base">
                         Jaringan komputer adalah sekumpulan perangkat komputer dan perangkat lainnya yang saling terhubung melalui media komunikasi untuk bertukar data dan informasi.
                     </p>
                     <h3 class="font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage mb-4 flex items-center gap-2 aesthetic:font-serif">
                         <i data-lucide="settings-2" class="w-5 h-5 text-blue-600 aesthetic:text-sage"></i> Fungsi utama jaringan:
                     </h3>
-                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                         <li class="bg-slate-50 dark:bg-slate-800/50 aesthetic:bg-cream p-4 rounded-xl border border-slate-100 dark:border-slate-800 aesthetic:border-sage-light/20 text-sm aesthetic:text-sage-dark">
                             <span class="font-bold text-blue-600 dark:text-blue-400 aesthetic:text-sage block mb-1">Berbagi sumber daya</span>
                             Memungkinkan berbagai perangkat untuk penyimpanan data dan koneksi internet.
@@ -315,7 +315,7 @@
                     </ul>
 
                     <h3 class="font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage aesthetic:font-serif mb-4">Klasifikasi Berdasarkan Jangkauan:</h3>
-                    <div class="grid md:grid-cols-2 gap-4 mb-8">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                         <div class="p-4 bg-white dark:bg-slate-800 aesthetic:bg-white border border-slate-200 dark:border-slate-700 aesthetic:border-blush rounded-xl hover:border-blue-200 transition-colors">
                             <p class="font-bold text-blue-600 dark:text-blue-400 aesthetic:text-sage text-sm mb-1">LAN (Local Area Network)</p>
                             <p class="text-xs text-slate-500 aesthetic:text-sage-light">Jaringan skala kecil seperti rumah dan ruangan kantor (Ethernet/Wi-Fi).</p>
@@ -336,28 +336,28 @@
                 </section>
 
                 <!-- 3. Pengenalan Starlink -->
-                <section id="pengenalan" class="section-card bg-slate-900 aesthetic:bg-sage text-white border-none shadow-blue-900/20 aesthetic:shadow-sage-dark/20 p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 transition-all">
-                    <h2 class="text-2xl mb-8 text-white aesthetic:text-cream before:bg-blue-400 aesthetic:before:bg-blush font-extrabold aesthetic:font-serif">3. Pengenalan Starlink</h2>
-                    <div class="space-y-8">
+                <section id="pengenalan" class="section-card bg-slate-900 aesthetic:bg-sage text-white border-none shadow-blue-900/20 aesthetic:shadow-sage-dark/20 p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 transition-all">
+                    <h2 class="text-xl md:text-2xl mb-8 text-white aesthetic:text-cream before:bg-blue-400 aesthetic:before:bg-blush font-extrabold aesthetic:font-serif">3. Pengenalan Starlink</h2>
+                    <div class="space-y-6 md:space-y-8">
                         <div>
-                            <h3 class="text-lg font-bold text-blue-400 aesthetic:text-blush aesthetic:font-serif mb-3 flex items-center gap-2">
+                            <h3 class="text-base md:text-lg font-bold text-blue-400 aesthetic:text-blush aesthetic:font-serif mb-3 flex items-center gap-2">
                                 <i data-lucide="help-circle" class="w-5 h-5"></i> Apa itu Starlink?
                             </h3>
-                            <p class="text-slate-300 aesthetic:text-cream">Starlink adalah konstelasi satelit internet pertama dan terbesar di dunia yang menggunakan <strong>Low Earth Orbit (LEO)</strong> untuk menghadirkan internet pita lebar (broadband) yang mampu mendukung <em>streaming</em>, <em>online gaming</em>, hingga panggilan video.</p>
+                            <p class="text-sm md:text-base text-slate-300 aesthetic:text-cream">Starlink adalah konstelasi satelit internet pertama dan terbesar di dunia yang menggunakan <strong>Low Earth Orbit (LEO)</strong> untuk menghadirkan internet pita lebar (broadband) yang mampu mendukung <em>streaming</em>, <em>online gaming</em>, hingga panggilan video.</p>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-blue-400 aesthetic:text-blush aesthetic:font-serif mb-3 flex items-center gap-2">
+                            <h3 class="text-base md:text-lg font-bold text-blue-400 aesthetic:text-blush aesthetic:font-serif mb-3 flex items-center gap-2">
                                 <i data-lucide="rocket" class="w-5 h-5"></i> Dikembangkan oleh SpaceX
                             </h3>
-                            <p class="text-slate-300 aesthetic:text-cream">Bukan ISP biasa, Starlink merupakan proyek dari <strong>SpaceX</strong>, milik Elon Musk. SpaceX memanfaatkan roket Falcon 9 untuk meluncurkan ribuan satelit dengan efisiensi biaya yang belum pernah ada sebelumnya.</p>
+                            <p class="text-sm md:text-base text-slate-300 aesthetic:text-cream">Bukan ISP biasa, Starlink merupakan proyek dari <strong>SpaceX</strong>, milik Elon Musk. SpaceX memanfaatkan roket Falcon 9 untuk meluncurkan ribuan satelit dengan efisiensi biaya yang belum pernah ada sebelumnya.</p>
                         </div>
                         
-                        <div class="p-6 bg-slate-800 aesthetic:bg-sage-dark rounded-2xl flex flex-col md:flex-row items-center gap-6 border border-slate-700 aesthetic:border-sage-light/30">
-                            <div class="flex-1">
+                        <div class="p-5 md:p-6 bg-slate-800 aesthetic:bg-sage-dark rounded-2xl flex flex-col sm:flex-row items-center gap-6 border border-slate-700 aesthetic:border-sage-light/30">
+                            <div class="flex-1 text-center sm:text-left">
                                 <h4 class="font-bold text-blue-400 aesthetic:text-blush mb-2 uppercase text-xs tracking-widest">Orbit Rendah (LEO) 2026</h4>
-                                <p class="text-sm text-slate-300 aesthetic:text-cream">Satelit berada di ketinggian ~550 km. Hal ini memangkas latensi secara drastis, memungkinkan performa yang hampir setara dengan fiber optik darat.</p>
+                                <p class="text-xs md:text-sm text-slate-300 aesthetic:text-cream">Satelit berada di ketinggian ~550 km. Hal ini memangkas latensi secara drastis, memungkinkan performa yang hampir setara dengan fiber optik darat.</p>
                             </div>
-                            <div class="w-32 h-32 rounded-xl overflow-hidden shrink-0 border-2 border-slate-700 aesthetic:border-blush">
+                            <div class="w-full sm:w-32 h-40 sm:h-32 rounded-xl overflow-hidden shrink-0 border-2 border-slate-700 aesthetic:border-blush">
                                 <img src="https://images.unsplash.com/photo-1517976547714-720226b864c1?auto=format&fit=crop&q=80&w=400" alt="Rocket SpaceX" class="w-full h-full object-cover">
                             </div>
                         </div>
@@ -365,138 +365,139 @@
                 </section>
 
                 <!-- 4. Arsitektur -->
-                <section id="arsitektur" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
-                    <h2 class="text-2xl mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">4. Arsitektur dan Cara Kerja</h2>
-                    <p class="mb-8 text-slate-500 dark:text-slate-400 aesthetic:text-sage-light italic">Secara arsitektur, Starlink terdiri dari empat komponen utama yang bekerja dalam satu ekosistem:</p>
+                <section id="arsitektur" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
+                    <h2 class="text-xl md:text-2xl mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">4. Arsitektur dan Cara Kerja</h2>
+                    <p class="mb-6 md:mb-8 text-sm md:text-base text-slate-500 dark:text-slate-400 aesthetic:text-sage-light italic">Secara arsitektur, Starlink terdiri dari empat komponen utama yang bekerja dalam satu ekosistem:</p>
                     
-                    <div class="grid md:grid-cols-2 gap-6 mb-10">
-                        <div class="group p-6 border dark:border-slate-700 aesthetic:border-sage-light/30 rounded-2xl hover:border-blue-500 aesthetic:hover:border-sage transition-all duration-300">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 mb-8 md:mb-10">
+                        <div class="group p-5 md:p-6 border dark:border-slate-700 aesthetic:border-sage-light/30 rounded-2xl hover:border-blue-500 aesthetic:hover:border-sage transition-all duration-300">
                             <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900/40 aesthetic:bg-blush text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark rounded-xl flex items-center justify-center font-bold mb-4 group-hover:bg-blue-600 aesthetic:group-hover:bg-sage group-hover:text-white transition-colors">1</div>
                             <h4 class="font-bold dark:text-white aesthetic:text-sage-dark mb-2 aesthetic:font-serif">Satelit LEO</h4>
-                            <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-light">Ribuan satelit kecil membentuk konstelasi jaring di orbit bumi.</p>
+                            <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-light">Ribuan satelit kecil membentuk konstelasi jaring di orbit bumi.</p>
                         </div>
-                        <div class="group p-6 border dark:border-slate-700 aesthetic:border-sage-light/30 rounded-2xl hover:border-blue-500 aesthetic:hover:border-sage transition-all duration-300">
+                        <div class="group p-5 md:p-6 border dark:border-slate-700 aesthetic:border-sage-light/30 rounded-2xl hover:border-blue-500 aesthetic:hover:border-sage transition-all duration-300">
                             <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900/40 aesthetic:bg-blush text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark rounded-xl flex items-center justify-center font-bold mb-4 group-hover:bg-blue-600 aesthetic:group-hover:bg-sage group-hover:text-white transition-colors">2</div>
                             <h4 class="font-bold dark:text-white aesthetic:text-sage-dark mb-2 aesthetic:font-serif">User Terminal</h4>
-                            <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-light">Antena Phased Array yang melacak satelit tanpa motor penggerak mekanis.</p>
+                            <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-light">Antena Phased Array yang melacak satelit tanpa motor penggerak mekanis.</p>
                         </div>
-                        <div class="group p-6 border dark:border-slate-700 aesthetic:border-sage-light/30 rounded-2xl hover:border-blue-500 aesthetic:hover:border-sage transition-all duration-300">
+                        <div class="group p-5 md:p-6 border dark:border-slate-700 aesthetic:border-sage-light/30 rounded-2xl hover:border-blue-500 aesthetic:hover:border-sage transition-all duration-300">
                             <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900/40 aesthetic:bg-blush text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark rounded-xl flex items-center justify-center font-bold mb-4 group-hover:bg-blue-600 aesthetic:group-hover:bg-sage group-hover:text-white transition-colors">3</div>
                             <h4 class="font-bold dark:text-white aesthetic:text-sage-dark mb-2 aesthetic:font-serif">Ground Station</h4>
-                            <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-light">Gateway bumi yang terhubung langsung ke tulang punggung internet global.</p>
+                            <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-light">Gateway bumi yang terhubung langsung ke tulang punggung internet global.</p>
                         </div>
-                        <div class="group p-6 border dark:border-slate-700 aesthetic:border-sage-light/30 rounded-2xl hover:border-blue-500 aesthetic:hover:border-sage transition-all duration-300">
+                        <div class="group p-5 md:p-6 border dark:border-slate-700 aesthetic:border-sage-light/30 rounded-2xl hover:border-blue-500 aesthetic:hover:border-sage transition-all duration-300">
                             <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900/40 aesthetic:bg-blush text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark rounded-xl flex items-center justify-center font-bold mb-4 group-hover:bg-blue-600 aesthetic:group-hover:bg-sage group-hover:text-white transition-colors">4</div>
                             <h4 class="font-bold dark:text-white aesthetic:text-sage-dark mb-2 aesthetic:font-serif">Space Lasers</h4>
-                            <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-light">Komunikasi antar satelit via laser yang memungkinkan transmisi data tanpa gateway terdekat.</p>
+                            <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-light">Komunikasi antar satelit via laser yang memungkinkan transmisi data tanpa gateway terdekat.</p>
                         </div>
                     </div>
 
-                    <div class="bg-blue-50 dark:bg-blue-900/10 aesthetic:bg-cream border border-blue-100 dark:border-blue-900/30 aesthetic:border-sage-light/30 rounded-3xl p-8">
-                        <h3 class="font-bold text-slate-800 dark:text-white aesthetic:text-sage aesthetic:font-serif mb-6 text-center">Workflow Pengiriman Data</h3>
+                    <div class="bg-blue-50 dark:bg-blue-900/10 aesthetic:bg-cream border border-blue-100 dark:border-blue-900/30 aesthetic:border-sage-light/30 rounded-3xl p-5 md:p-8">
+                        <h3 class="font-bold text-slate-800 dark:text-white aesthetic:text-sage aesthetic:font-serif mb-6 text-center text-sm md:text-base">Workflow Pengiriman Data</h3>
                         <div class="relative space-y-4">
+                            <!-- Garis Timeline, hidden on very small screens to avoid overflow issues, but it's safe if structured right -->
                             <div class="absolute left-[19px] top-4 bottom-4 w-[2px] bg-blue-200 dark:bg-blue-800 aesthetic:bg-sage-light/50 hidden md:block"></div>
                             
-                            <div class="relative flex items-center gap-4 bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 shadow-sm">
-                                <div class="w-10 h-10 rounded-full bg-blue-600 aesthetic:bg-sage text-white flex items-center justify-center font-bold text-xs shrink-0 z-10">1</div>
-                                <p class="text-sm dark:text-slate-300 aesthetic:text-sage-dark"><strong>Request:</strong> Perangkat (HP/Laptop) mengirim data ke User Terminal (Dish).</p>
+                            <div class="relative flex items-start md:items-center gap-3 md:gap-4 bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 shadow-sm">
+                                <div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-blue-600 aesthetic:bg-sage text-white flex items-center justify-center font-bold text-xs shrink-0 z-10 mt-1 md:mt-0">1</div>
+                                <p class="text-xs md:text-sm dark:text-slate-300 aesthetic:text-sage-dark leading-relaxed"><strong>Request:</strong> Perangkat (HP/Laptop) mengirim data ke User Terminal (Dish).</p>
                             </div>
-                            <div class="relative flex items-center gap-4 bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 shadow-sm">
-                                <div class="w-10 h-10 rounded-full bg-blue-600 aesthetic:bg-sage text-white flex items-center justify-center font-bold text-xs shrink-0 z-10">2</div>
-                                <p class="text-sm dark:text-slate-300 aesthetic:text-sage-dark"><strong>Uplink:</strong> Dish mengirim sinyal frekuensi tinggi ke Satelit Starlink terdekat.</p>
+                            <div class="relative flex items-start md:items-center gap-3 md:gap-4 bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 shadow-sm">
+                                <div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-blue-600 aesthetic:bg-sage text-white flex items-center justify-center font-bold text-xs shrink-0 z-10 mt-1 md:mt-0">2</div>
+                                <p class="text-xs md:text-sm dark:text-slate-300 aesthetic:text-sage-dark leading-relaxed"><strong>Uplink:</strong> Dish mengirim sinyal frekuensi tinggi ke Satelit Starlink terdekat.</p>
                             </div>
-                            <div class="relative flex items-center gap-4 bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 shadow-sm">
-                                <div class="w-10 h-10 rounded-full bg-blue-600 aesthetic:bg-sage text-white flex items-center justify-center font-bold text-xs shrink-0 z-10">3</div>
-                                <p class="text-sm dark:text-slate-300 aesthetic:text-sage-dark"><strong>Relay:</strong> Satelit meneruskan sinyal (via laser atau radio) ke Ground Station.</p>
+                            <div class="relative flex items-start md:items-center gap-3 md:gap-4 bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 shadow-sm">
+                                <div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-blue-600 aesthetic:bg-sage text-white flex items-center justify-center font-bold text-xs shrink-0 z-10 mt-1 md:mt-0">3</div>
+                                <p class="text-xs md:text-sm dark:text-slate-300 aesthetic:text-sage-dark leading-relaxed"><strong>Relay:</strong> Satelit meneruskan sinyal (via laser atau radio) ke Ground Station.</p>
                             </div>
-                            <div class="relative flex items-center gap-4 bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 shadow-sm">
-                                <div class="w-10 h-10 rounded-full bg-blue-600 aesthetic:bg-sage text-white flex items-center justify-center font-bold text-xs shrink-0 z-10">4</div>
-                                <p class="text-sm dark:text-slate-300 aesthetic:text-sage-dark"><strong>Backbone:</strong> Ground Station mengakses data dari server internet global.</p>
+                            <div class="relative flex items-start md:items-center gap-3 md:gap-4 bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 shadow-sm">
+                                <div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-blue-600 aesthetic:bg-sage text-white flex items-center justify-center font-bold text-xs shrink-0 z-10 mt-1 md:mt-0">4</div>
+                                <p class="text-xs md:text-sm dark:text-slate-300 aesthetic:text-sage-dark leading-relaxed"><strong>Backbone:</strong> Ground Station mengakses data dari server internet global.</p>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- 5. Teknologi -->
-                <section id="teknologi" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
-                    <h2 class="text-2xl mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">5. Teknologi Jaringan yang Digunakan</h2>
-                    <div class="grid gap-6">
-                        <div class="flex gap-6 p-6 rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-800 aesthetic:hover:bg-cream transition-colors border border-transparent hover:border-slate-200 dark:hover:border-slate-700 aesthetic:hover:border-blush">
+                <section id="teknologi" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
+                    <h2 class="text-xl md:text-2xl mb-6 md:mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">5. Teknologi Jaringan yang Digunakan</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                        <div class="flex flex-col sm:flex-row gap-4 md:gap-6 p-5 md:p-6 rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-800 aesthetic:hover:bg-cream transition-colors border border-transparent hover:border-slate-200 dark:hover:border-slate-700 aesthetic:hover:border-blush">
                             <div class="w-12 h-12 bg-blue-50 dark:bg-blue-900/40 aesthetic:bg-blush rounded-2xl flex items-center justify-center shrink-0">
                                 <i data-lucide="file-code" class="w-6 h-6 text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark"></i>
                             </div>
                             <div>
-                                <h3 class="font-bold text-lg dark:text-white aesthetic:text-sage aesthetic:font-serif mb-1">Protokol TCP/IP</h3>
-                                <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Standar protokol internet global yang mengatur paket data dari terminal hingga ke server tujuan.</p>
+                                <h3 class="font-bold text-base md:text-lg dark:text-white aesthetic:text-sage aesthetic:font-serif mb-1">Protokol TCP/IP</h3>
+                                <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Standar protokol internet global yang mengatur paket data dari terminal hingga ke server tujuan.</p>
                             </div>
                         </div>
-                        <div class="flex gap-6 p-6 rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-800 aesthetic:hover:bg-cream transition-colors border border-transparent hover:border-slate-200 dark:hover:border-slate-700 aesthetic:hover:border-blush">
+                        <div class="flex flex-col sm:flex-row gap-4 md:gap-6 p-5 md:p-6 rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-800 aesthetic:hover:bg-cream transition-colors border border-transparent hover:border-slate-200 dark:hover:border-slate-700 aesthetic:hover:border-blush">
                             <div class="w-12 h-12 bg-indigo-50 dark:bg-indigo-900/40 aesthetic:bg-blush rounded-2xl flex items-center justify-center shrink-0">
                                 <i data-lucide="route" class="w-6 h-6 text-indigo-600 dark:text-indigo-400 aesthetic:text-sage-dark"></i>
                             </div>
                             <div>
-                                <h3 class="font-bold text-lg dark:text-white aesthetic:text-sage aesthetic:font-serif mb-1">Dynamic Routing</h3>
-                                <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Software otomatis memilih rute tercepat secara real-time menyesuaikan posisi satelit yang terus bergerak.</p>
+                                <h3 class="font-bold text-base md:text-lg dark:text-white aesthetic:text-sage aesthetic:font-serif mb-1">Dynamic Routing</h3>
+                                <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Software otomatis memilih rute tercepat secara real-time menyesuaikan posisi satelit yang terus bergerak.</p>
                             </div>
                         </div>
-                        <div class="flex gap-6 p-6 rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-800 aesthetic:hover:bg-cream transition-colors border border-transparent hover:border-slate-200 dark:hover:border-slate-700 aesthetic:hover:border-blush">
+                        <div class="flex flex-col sm:flex-row gap-4 md:gap-6 p-5 md:p-6 rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-800 aesthetic:hover:bg-cream transition-colors border border-transparent hover:border-slate-200 dark:hover:border-slate-700 aesthetic:hover:border-blush">
                             <div class="w-12 h-12 bg-amber-50 dark:bg-amber-900/40 aesthetic:bg-blush rounded-2xl flex items-center justify-center shrink-0">
                                 <i data-lucide="radio" class="w-6 h-6 text-amber-600 dark:text-amber-400 aesthetic:text-sage-dark"></i>
                             </div>
                             <div>
-                                <h3 class="font-bold text-lg dark:text-white aesthetic:text-sage aesthetic:font-serif mb-1">Spectrum Ku, Ka, & E-band</h3>
-                                <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Penggunaan spektrum frekuensi luas didukung antena phased array untuk kapasitas data masif.</p>
+                                <h3 class="font-bold text-base md:text-lg dark:text-white aesthetic:text-sage aesthetic:font-serif mb-1">Spectrum Ku, Ka, & E-band</h3>
+                                <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Penggunaan spektrum frekuensi luas didukung antena phased array untuk kapasitas data masif.</p>
                             </div>
                         </div>
-                        <div class="flex gap-6 p-6 rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-800 aesthetic:hover:bg-cream transition-colors border border-transparent hover:border-slate-200 dark:hover:border-slate-700 aesthetic:hover:border-blush">
+                        <div class="flex flex-col sm:flex-row gap-4 md:gap-6 p-5 md:p-6 rounded-2xl hover:bg-slate-50 dark:hover:bg-slate-800 aesthetic:hover:bg-cream transition-colors border border-transparent hover:border-slate-200 dark:hover:border-slate-700 aesthetic:hover:border-blush">
                             <div class="w-12 h-12 bg-cyan-50 dark:bg-cyan-900/40 aesthetic:bg-blush rounded-2xl flex items-center justify-center shrink-0">
                                 <i data-lucide="gauge" class="w-6 h-6 text-cyan-600 dark:text-cyan-400 aesthetic:text-sage-dark"></i>
                             </div>
                             <div>
-                                <h3 class="font-bold text-lg dark:text-white aesthetic:text-sage aesthetic:font-serif mb-1">Low Latency Engineering</h3>
-                                <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Target latensi 20–50 ms, sangat kompetitif untuk aktivitas streaming dan gaming.</p>
+                                <h3 class="font-bold text-base md:text-lg dark:text-white aesthetic:text-sage aesthetic:font-serif mb-1">Low Latency Engineering</h3>
+                                <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Target latensi 20–50 ms, sangat kompetitif untuk aktivitas streaming dan gaming.</p>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- 6. Perbandingan -->
-                <section id="perbandingan" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30 overflow-hidden">
-                    <h2 class="text-2xl mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">6. Analisis Perbandingan dengan Jaringan Lain</h2>
-                    <div class="overflow-x-auto -mx-8 md:mx-0">
-                        <table class="w-full text-sm text-left border-collapse">
+                <section id="perbandingan" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30 overflow-hidden w-full">
+                    <h2 class="text-xl md:text-2xl mb-6 md:mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">6. Analisis Perbandingan dengan Jaringan Lain</h2>
+                    <div class="overflow-x-auto w-full border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/30 rounded-xl">
+                        <table class="w-full text-xs md:text-sm text-left border-collapse min-w-[500px]">
                             <thead class="bg-slate-900 dark:bg-slate-800 aesthetic:bg-sage text-white aesthetic:text-cream">
                                 <tr>
-                                    <th class="px-6 py-5 font-bold aesthetic:font-serif">Aspek</th>
-                                    <th class="px-6 py-5 font-bold bg-blue-600 aesthetic:bg-sage-dark aesthetic:font-serif">Starlink (2026)</th>
-                                    <th class="px-6 py-5 font-bold aesthetic:font-serif">Fiber Optic</th>
-                                    <th class="px-6 py-5 font-bold aesthetic:font-serif">Seluler (5G)</th>
+                                    <th class="px-4 md:px-6 py-4 md:py-5 font-bold aesthetic:font-serif whitespace-nowrap">Aspek</th>
+                                    <th class="px-4 md:px-6 py-4 md:py-5 font-bold bg-blue-600 aesthetic:bg-sage-dark aesthetic:font-serif whitespace-nowrap">Starlink (2026)</th>
+                                    <th class="px-4 md:px-6 py-4 md:py-5 font-bold aesthetic:font-serif whitespace-nowrap">Fiber Optic</th>
+                                    <th class="px-4 md:px-6 py-4 md:py-5 font-bold aesthetic:font-serif whitespace-nowrap">Seluler (5G)</th>
                                 </tr>
                             </thead>
                             <tbody class="divide-y divide-slate-100 dark:divide-slate-800 aesthetic:divide-sage-light/20 text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">
                                 <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50 aesthetic:hover:bg-cream transition-colors">
-                                    <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage">Kecepatan</td>
-                                    <td class="px-6 py-4 font-bold text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark aesthetic:bg-sage-light/10">50-250 Mbps</td>
-                                    <td class="px-6 py-4">100-1.000+ Mbps</td>
-                                    <td class="px-6 py-4">Hingga 1 Gbps</td>
+                                    <td class="px-4 md:px-6 py-4 font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage">Kecepatan</td>
+                                    <td class="px-4 md:px-6 py-4 font-bold text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark aesthetic:bg-sage-light/10">50-250 Mbps</td>
+                                    <td class="px-4 md:px-6 py-4">100-1.000+ Mbps</td>
+                                    <td class="px-4 md:px-6 py-4">Hingga 1 Gbps</td>
                                 </tr>
                                 <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50 aesthetic:hover:bg-cream transition-colors">
-                                    <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage">Latensi</td>
-                                    <td class="px-6 py-4 font-bold text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark aesthetic:bg-sage-light/10">20-50 ms</td>
-                                    <td class="px-6 py-4">&lt;10 ms</td>
-                                    <td class="px-6 py-4">10-20 ms</td>
+                                    <td class="px-4 md:px-6 py-4 font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage">Latensi</td>
+                                    <td class="px-4 md:px-6 py-4 font-bold text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark aesthetic:bg-sage-light/10">20-50 ms</td>
+                                    <td class="px-4 md:px-6 py-4">&lt;10 ms</td>
+                                    <td class="px-4 md:px-6 py-4">10-20 ms</td>
                                 </tr>
                                 <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50 aesthetic:hover:bg-cream transition-colors">
-                                    <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage">Stabilitas</td>
-                                    <td class="px-6 py-4 font-bold text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark aesthetic:bg-sage-light/10">Tergantung pada cuaca</td>
-                                    <td class="px-6 py-4">Sangat stabil</td>
-                                    <td class="px-6 py-4">Tergantung sinyal</td>
+                                    <td class="px-4 md:px-6 py-4 font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage">Stabilitas</td>
+                                    <td class="px-4 md:px-6 py-4 font-bold text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark aesthetic:bg-sage-light/10">Tergantung pada cuaca</td>
+                                    <td class="px-4 md:px-6 py-4">Sangat stabil</td>
+                                    <td class="px-4 md:px-6 py-4">Tergantung sinyal</td>
                                 </tr>
                                 <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50 aesthetic:hover:bg-cream transition-colors bg-blue-50/20 dark:bg-blue-900/5 aesthetic:bg-blush/10">
-                                    <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage">Cakupan</td>
-                                    <td class="px-6 py-4 font-black text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark aesthetic:bg-blush/30">Global / Pelosok</td>
-                                    <td class="px-6 py-4 text-slate-400 aesthetic:text-sage-light italic">Terbatas area berkabel</td>
-                                    <td class="px-6 py-4 text-slate-400 aesthetic:text-sage-light italic">Tergantung menara</td>
+                                    <td class="px-4 md:px-6 py-4 font-bold text-slate-800 dark:text-slate-200 aesthetic:text-sage">Cakupan</td>
+                                    <td class="px-4 md:px-6 py-4 font-black text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark aesthetic:bg-blush/30">Global / Pelosok</td>
+                                    <td class="px-4 md:px-6 py-4 text-slate-400 aesthetic:text-sage-light italic">Terbatas area berkabel</td>
+                                    <td class="px-4 md:px-6 py-4 text-slate-400 aesthetic:text-sage-light italic">Tergantung menara</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -504,99 +505,99 @@
                 </section>
 
                 <!-- 7. Plus Minus -->
-                <section id="plusminus" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
-                    <h2 class="text-2xl mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">7. Kelebihan dan Kekurangan Starlink</h2>
-                    <div class="grid md:grid-cols-2 gap-8">
-                        <div class="p-8 bg-green-50/30 dark:bg-green-900/10 aesthetic:bg-cream rounded-3xl border border-green-100 dark:border-green-900/30 aesthetic:border-sage">
-                            <h4 class="text-green-700 dark:text-green-400 aesthetic:text-sage font-extrabold aesthetic:font-serif text-lg mb-6 flex items-center gap-3">
+                <section id="plusminus" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
+                    <h2 class="text-xl md:text-2xl mb-6 md:mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">7. Kelebihan dan Kekurangan Starlink</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                        <div class="p-6 md:p-8 bg-green-50/30 dark:bg-green-900/10 aesthetic:bg-cream rounded-3xl border border-green-100 dark:border-green-900/30 aesthetic:border-sage">
+                            <h4 class="text-green-700 dark:text-green-400 aesthetic:text-sage font-extrabold aesthetic:font-serif text-base md:text-lg mb-6 flex items-center gap-3">
                                 <i data-lucide="plus-circle" class="w-6 h-6"></i> Kelebihan
                             </h4>
-                            <ul class="space-y-4 text-sm text-slate-700 dark:text-slate-300 aesthetic:text-sage-dark">
-                                <li class="flex gap-3"><i data-lucide="check" class="w-5 h-5 text-green-500 aesthetic:text-sage shrink-0"></i> Jangkauan global. Akses internet tersedia hampir di seluruh dunia via satelit LEO.</li>
-                                <li class="flex gap-3"><i data-lucide="check" class="w-5 h-5 text-green-500 aesthetic:text-sage shrink-0"></i> Tidak butuh kabel. Efisiensi tinggi tanpa instalasi fisik kompleks di darat.</li>
-                                <li class="flex gap-3"><i data-lucide="check" class="w-5 h-5 text-green-500 aesthetic:text-sage shrink-0"></i> Pemerataan di wilayah 3T. Solusi blank spot di daerah terluar dan tertinggal di Indonesia.</li>
+                            <ul class="space-y-4 text-xs md:text-sm text-slate-700 dark:text-slate-300 aesthetic:text-sage-dark">
+                                <li class="flex gap-3"><i data-lucide="check" class="w-5 h-5 text-green-500 aesthetic:text-sage shrink-0"></i> <span>Jangkauan global. Akses internet tersedia hampir di seluruh dunia via satelit LEO.</span></li>
+                                <li class="flex gap-3"><i data-lucide="check" class="w-5 h-5 text-green-500 aesthetic:text-sage shrink-0"></i> <span>Tidak butuh kabel. Efisiensi tinggi tanpa instalasi fisik kompleks di darat.</span></li>
+                                <li class="flex gap-3"><i data-lucide="check" class="w-5 h-5 text-green-500 aesthetic:text-sage shrink-0"></i> <span>Pemerataan di wilayah 3T. Solusi blank spot di daerah terluar dan tertinggal di Indonesia.</span></li>
                             </ul>
                         </div>
-                        <div class="p-8 bg-red-50/30 dark:bg-red-900/10 aesthetic:bg-blush/30 rounded-3xl border border-red-100 dark:border-red-900/30 aesthetic:border-blush">
-                            <h4 class="text-red-700 dark:text-red-400 aesthetic:text-sage-dark font-extrabold aesthetic:font-serif text-lg mb-6 flex items-center gap-3">
+                        <div class="p-6 md:p-8 bg-red-50/30 dark:bg-red-900/10 aesthetic:bg-blush/30 rounded-3xl border border-red-100 dark:border-red-900/30 aesthetic:border-blush">
+                            <h4 class="text-red-700 dark:text-red-400 aesthetic:text-sage-dark font-extrabold aesthetic:font-serif text-base md:text-lg mb-6 flex items-center gap-3">
                                 <i data-lucide="minus-circle" class="w-6 h-6"></i> Kekurangan
                             </h4>
-                            <ul class="space-y-4 text-sm text-slate-700 dark:text-slate-300 aesthetic:text-sage-dark">
-                                <li class="flex gap-3"><i data-lucide="x" class="w-5 h-5 text-red-500 aesthetic:text-sage shrink-0"></i> Biaya tinggi. Masih tergolong mahal dibanding penyedia lokal.</li>
-                                <li class="flex gap-3"><i data-lucide="x" class="w-5 h-5 text-red-500 aesthetic:text-sage shrink-0"></i> Dipengaruhi cuaca. Hujan lebat atau awan tebal dapat menghalangi transmisi data.</li>
-                                <li class="flex gap-3"><i data-lucide="x" class="w-5 h-5 text-red-500 aesthetic:text-sage shrink-0"></i> Kapasitas terbatas. Kecepatan menurun jika terjadi penumpukan pengguna di satu area.</li>
+                            <ul class="space-y-4 text-xs md:text-sm text-slate-700 dark:text-slate-300 aesthetic:text-sage-dark">
+                                <li class="flex gap-3"><i data-lucide="x" class="w-5 h-5 text-red-500 aesthetic:text-sage shrink-0"></i> <span>Biaya tinggi. Masih tergolong mahal dibanding penyedia lokal.</span></li>
+                                <li class="flex gap-3"><i data-lucide="x" class="w-5 h-5 text-red-500 aesthetic:text-sage shrink-0"></i> <span>Dipengaruhi cuaca. Hujan lebat atau awan tebal dapat menghalangi transmisi data.</span></li>
+                                <li class="flex gap-3"><i data-lucide="x" class="w-5 h-5 text-red-500 aesthetic:text-sage shrink-0"></i> <span>Kapasitas terbatas. Kecepatan menurun jika terjadi penumpukan pengguna di satu area.</span></li>
                             </ul>
                         </div>
                     </div>
                 </section>
 
                 <!-- 8. Dampak -->
-                <section id="dampak" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
-                    <h2 class="text-2xl mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">8. Dampak terhadap Jaringan Komputer</h2>
-                    <div class="grid gap-4">
-                        <div class="group flex gap-4 p-5 bg-white dark:bg-slate-800 aesthetic:bg-cream border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 rounded-2xl shadow-sm">
-                            <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900/40 aesthetic:bg-blush rounded-xl flex items-center justify-center text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark shrink-0">
-                                <i data-lucide="refresh-cw" class="w-6 h-6"></i>
+                <section id="dampak" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
+                    <h2 class="text-xl md:text-2xl mb-6 md:mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">8. Dampak terhadap Jaringan Komputer</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm md:text-base">
+                        <div class="group flex flex-col sm:flex-row gap-4 p-5 bg-white dark:bg-slate-800 aesthetic:bg-cream border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 rounded-2xl shadow-sm items-start sm:items-center">
+                            <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 dark:bg-blue-900/40 aesthetic:bg-blush rounded-xl flex items-center justify-center text-blue-600 dark:text-blue-400 aesthetic:text-sage-dark shrink-0">
+                                <i data-lucide="refresh-cw" class="w-5 h-5 md:w-6 md:h-6"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-800 dark:text-white aesthetic:text-sage aesthetic:font-serif">Perubahan infrastruktur global</h4>
-                                <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Penyediaan koneksi langsung dari satelit ke konsumen akhir tanpa banyak perantara fisik darat.</p>
+                                <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark leading-relaxed">Penyediaan koneksi langsung dari satelit ke konsumen tanpa fisik darat.</p>
                             </div>
                         </div>
-                        <div class="group flex gap-4 p-5 bg-white dark:bg-slate-800 aesthetic:bg-cream border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 rounded-2xl shadow-sm">
-                            <div class="w-12 h-12 bg-green-100 dark:bg-green-900/40 aesthetic:bg-blush rounded-xl flex items-center justify-center text-green-600 dark:text-green-400 aesthetic:text-sage-dark shrink-0">
-                                <i data-lucide="unlock" class="w-6 h-6"></i>
+                        <div class="group flex flex-col sm:flex-row gap-4 p-5 bg-white dark:bg-slate-800 aesthetic:bg-cream border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 rounded-2xl shadow-sm items-start sm:items-center">
+                            <div class="w-10 h-10 md:w-12 md:h-12 bg-green-100 dark:bg-green-900/40 aesthetic:bg-blush rounded-xl flex items-center justify-center text-green-600 dark:text-green-400 aesthetic:text-sage-dark shrink-0">
+                                <i data-lucide="unlock" class="w-5 h-5 md:w-6 md:h-6"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-800 dark:text-white aesthetic:text-sage aesthetic:font-serif">Internet lebih merata</h4>
-                                <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Menghilangkan batasan jarak dan mengurangi kesenjangan digital kota-desa.</p>
+                                <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark leading-relaxed">Menghilangkan batasan jarak dan kesenjangan digital kota-desa.</p>
                             </div>
                         </div>
-                        <div class="group flex gap-4 p-5 bg-white dark:bg-slate-800 aesthetic:bg-cream border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 rounded-2xl shadow-sm">
-                            <div class="w-12 h-12 bg-amber-100 dark:bg-amber-900/40 aesthetic:bg-blush rounded-xl flex items-center justify-center text-amber-600 dark:text-amber-400 aesthetic:text-sage-dark shrink-0">
-                                <i data-lucide="cpu" class="w-6 h-6"></i>
+                        <div class="group flex flex-col sm:flex-row gap-4 p-5 bg-white dark:bg-slate-800 aesthetic:bg-cream border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 rounded-2xl shadow-sm items-start sm:items-center">
+                            <div class="w-10 h-10 md:w-12 md:h-12 bg-amber-100 dark:bg-amber-900/40 aesthetic:bg-blush rounded-xl flex items-center justify-center text-amber-600 dark:text-amber-400 aesthetic:text-sage-dark shrink-0">
+                                <i data-lucide="cpu" class="w-5 h-5 md:w-6 md:h-6"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-800 dark:text-white aesthetic:text-sage aesthetic:font-serif">Mendukung IoT</h4>
-                                <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Dirancang untuk pertumbuhan teknologi masa depan seperti Internet of Things dan AI.</p>
+                                <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark leading-relaxed">Dirancang untuk pertumbuhan teknologi masa depan (IoT & AI).</p>
                             </div>
                         </div>
-                        <div class="group flex gap-4 p-5 bg-white dark:bg-slate-800 aesthetic:bg-cream border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 rounded-2xl shadow-sm">
-                            <div class="w-12 h-12 bg-red-100 dark:bg-red-900/40 aesthetic:bg-blush rounded-xl flex items-center justify-center text-red-600 dark:text-red-400 aesthetic:text-sage-dark shrink-0">
-                                <i data-lucide="alert-triangle" class="w-6 h-6"></i>
+                        <div class="group flex flex-col sm:flex-row gap-4 p-5 bg-white dark:bg-slate-800 aesthetic:bg-cream border border-slate-100 dark:border-slate-700 aesthetic:border-sage-light/20 rounded-2xl shadow-sm items-start sm:items-center">
+                            <div class="w-10 h-10 md:w-12 md:h-12 bg-red-100 dark:bg-red-900/40 aesthetic:bg-blush rounded-xl flex items-center justify-center text-red-600 dark:text-red-400 aesthetic:text-sage-dark shrink-0">
+                                <i data-lucide="alert-triangle" class="w-5 h-5 md:w-6 md:h-6"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-800 dark:text-white aesthetic:text-sage aesthetic:font-serif">Ancaman Fiber</h4>
-                                <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Berpotensi membuat investasi infrastruktur kabel di wilayah tertentu menjadi kurang relevan.</p>
+                                <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark leading-relaxed">Potensi membuat infrastruktur kabel wilayah tertentu kurang relevan.</p>
                             </div>
                         </div>
                     </div>
                 </section>
 
                 <!-- 9 & 10. Indonesia & Kampus -->
-                <section id="indonesia" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
-                    <h2 class="text-2xl mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">9. Implementasi di Indonesia</h2>
-                    <p class="mb-8 text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Karakteristik Indonesia sebagai negara kepulauan seringkali menyebabkan kesenjangan akses. Starlink menjadi solusi strategis:</p>
-                    <div class="grid md:grid-cols-2 gap-6 mb-10">
-                        <div class="p-6 bg-slate-50 dark:bg-slate-800/50 aesthetic:bg-cream rounded-2xl border dark:border-slate-700 aesthetic:border-sage-light/30">
+                <section id="indonesia" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
+                    <h2 class="text-xl md:text-2xl mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">9. Implementasi di Indonesia</h2>
+                    <p class="mb-6 md:mb-8 text-sm md:text-base text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Karakteristik Indonesia sebagai negara kepulauan seringkali menyebabkan kesenjangan akses. Starlink menjadi solusi strategis:</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-8 md:mb-10">
+                        <div class="p-5 md:p-6 bg-slate-50 dark:bg-slate-800/50 aesthetic:bg-cream rounded-2xl border dark:border-slate-700 aesthetic:border-sage-light/30">
                             <h4 class="font-bold dark:text-white aesthetic:text-sage aesthetic:font-serif mb-2">Pendidikan</h4>
-                            <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Akses sumber daya pendidikan daring untuk sekolah di Papua, NTT, dan Maluku.</p>
+                            <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Akses sumber daya pendidikan daring untuk sekolah di Papua, NTT, dan Maluku.</p>
                         </div>
-                        <div class="p-6 bg-slate-50 dark:bg-slate-800/50 aesthetic:bg-cream rounded-2xl border dark:border-slate-700 aesthetic:border-sage-light/30">
+                        <div class="p-5 md:p-6 bg-slate-50 dark:bg-slate-800/50 aesthetic:bg-cream rounded-2xl border dark:border-slate-700 aesthetic:border-sage-light/30">
                             <h4 class="font-bold dark:text-white aesthetic:text-sage aesthetic:font-serif mb-2">Pemerintahan</h4>
-                            <p class="text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Memperkuat komunikasi militer dan operasi intelijen di daerah terpencil.</p>
+                            <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark">Memperkuat komunikasi militer dan operasi intelijen di daerah terpencil.</p>
                         </div>
                     </div>
 
-                    <div id="kampus" class="scroll-mt-24 border-t dark:border-slate-800 aesthetic:border-blush pt-10">
-                        <h2 class="text-2xl mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">10. Kaitan dengan Dunia Kampus</h2>
-                        <div class="relative overflow-hidden p-10 bg-blue-600 aesthetic:bg-sage rounded-[2.5rem] text-white aesthetic:text-cream flex flex-col md:flex-row justify-between items-center gap-8 group shadow-xl">
-                            <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-white/10 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-1000"></div>
-                            <div class="relative z-10 text-center md:text-left">
-                                <h3 class="text-3xl font-black mb-4 aesthetic:font-serif">UPN “Veteran” Yogyakarta</h3>
-                                <p class="text-blue-100 aesthetic:text-cream/90 max-w-md text-lg">Teknologi jaringan seperti Starlink dapat mendukung sistem pembelajaran digital di kampus kami.</p>
+                    <div id="kampus" class="scroll-mt-24 border-t dark:border-slate-800 aesthetic:border-blush pt-8 md:pt-10">
+                        <h2 class="text-xl md:text-2xl mb-6 md:mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">10. Kaitan dengan Dunia Kampus</h2>
+                        <div class="relative overflow-hidden p-6 md:p-10 bg-blue-600 aesthetic:bg-sage rounded-3xl md:rounded-[2.5rem] text-white aesthetic:text-cream flex flex-col md:flex-row justify-between items-center gap-6 md:gap-8 group shadow-xl text-center md:text-left">
+                            <div class="absolute -right-10 -bottom-10 md:-right-20 md:-bottom-20 w-64 h-64 md:w-80 md:h-80 bg-white/10 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-1000"></div>
+                            <div class="relative z-10 w-full md:w-auto">
+                                <h3 class="text-2xl md:text-3xl font-black mb-3 md:mb-4 aesthetic:font-serif">UPN “Veteran” Yogyakarta</h3>
+                                <p class="text-blue-100 aesthetic:text-cream/90 max-w-md mx-auto md:mx-0 text-sm md:text-lg leading-relaxed">Teknologi jaringan seperti Starlink dapat mendukung sistem pembelajaran digital di kampus kami.</p>
                             </div>
-                            <a href="https://www.upnyk.ac.id" target="_blank" class="relative z-10 px-8 py-4 bg-white text-blue-600 aesthetic:text-sage font-black rounded-xl hover:bg-blue-50 aesthetic:hover:bg-blush transition-all shrink-0 shadow-lg">
+                            <a href="https://www.upnyk.ac.id" target="_blank" class="relative z-10 px-6 py-3 md:px-8 md:py-4 w-full md:w-auto bg-white text-blue-600 aesthetic:text-sage font-black rounded-xl hover:bg-blue-50 aesthetic:hover:bg-blush transition-all shrink-0 shadow-lg text-sm md:text-base text-center">
                                 KUNJUNGI WEBSITE
                             </a>
                         </div>
@@ -604,17 +605,17 @@
                 </section>
 
                 <!-- 11 & 12. Future & Conclusion -->
-                <section id="masa-depan" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-8 md:p-10 rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
-                    <h2 class="text-2xl mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">11. Masa Depan Jaringan Satelit</h2>
-                    <ul class="list-disc ml-6 space-y-3 mb-10 text-slate-700 dark:text-slate-300 aesthetic:text-sage-dark font-medium">
+                <section id="masa-depan" class="section-card bg-white dark:bg-slate-900 aesthetic:bg-white p-6 md:p-10 rounded-3xl md:rounded-[2rem] mb-8 scroll-mt-24 border border-slate-200 dark:border-slate-800 aesthetic:border-blush aesthetic:shadow-lg aesthetic:shadow-blush/30">
+                    <h2 class="text-xl md:text-2xl mb-6 md:mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">11. Masa Depan Jaringan Satelit</h2>
+                    <ul class="list-disc ml-5 md:ml-6 space-y-2 md:space-y-3 mb-8 md:mb-10 text-sm md:text-base text-slate-700 dark:text-slate-300 aesthetic:text-sage-dark font-medium">
                         <li>Perkembangan Starlink ke depan</li>
                         <li>Kompetitor (opsional)</li>
                         <li>Integrasi dengan 6G, IoT, AI</li>
                     </ul>
 
-                    <div id="kesimpulan" class="scroll-mt-24 border-t dark:border-slate-800 aesthetic:border-blush pt-10">
-                        <h2 class="text-2xl mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">12. Kesimpulan</h2>
-                        <div class="space-y-4 text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark leading-relaxed">
+                    <div id="kesimpulan" class="scroll-mt-24 border-t dark:border-slate-800 aesthetic:border-blush pt-8 md:pt-10">
+                        <h2 class="text-xl md:text-2xl mb-4 md:mb-6 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">12. Kesimpulan</h2>
+                        <div class="space-y-4 text-sm md:text-base text-slate-600 dark:text-slate-400 aesthetic:text-sage-dark leading-relaxed">
                             <p>Starlink membawa perubahan besar dalam industri telekomunikasi dengan menghadirkan solusi konektivitas global berlatensi rendah melalui konstelasi satelit LEO.</p>
                             <p>Artikel ini telah menganalisis bagaimana Starlink bekerja dan keunggulan teknisnya dibandingkan jaringan konvensional. Penegasan utama adalah bahwa Starlink merupakan <strong>pelengkap</strong> strategis bagi infrastruktur yang sudah ada, bukan sekadar pengganti.</p>
                         </div>
@@ -622,26 +623,26 @@
                 </section>
 
                 <!-- 13. Daftar Pustaka -->
-                <section id="pustaka" class="section-card bg-slate-50 dark:bg-slate-800/30 aesthetic:bg-cream border-slate-200 dark:border-slate-800 aesthetic:border-sage-light/20 p-8 md:p-10 rounded-[2rem] scroll-mt-24">
-                    <h2 class="text-2xl mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">13. Daftar Pustaka</h2>
-                    <div class="space-y-4 text-xs font-medium text-slate-500 dark:text-slate-400 aesthetic:text-sage-dark italic">
-                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm">Rambe, R., Hermawan, F. F., & Saedudin, R. R. (2025). Dampak Masuknya Starlink ke Indonesia terhadap Keamanan Jaringan Nasional dengan Metode SLR (Systematics Literature Review). <i>Information System and Emerging Technology Journal</i>, 6(2), 43–53.</p>
-                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm">Kementerian Pertahanan RI. (2026). <i>Penjualan Starlink di Indonesia: Peluang dan Tantangan bagi Pertahanan Nasional</i>. Jakarta: Direktorat Veteran.</p>
-                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm">Ridwan, M., dkk. (2026). <i>Oligopoli Telekomunikasi dan Inovasi: Analisis Dampak Masuknya STARLINK bagi Industri Telekomunikasi di Indonesia</i>. Jurnal Ilmiah Ekonomi Dan Manajemen, 2(12).</p>
-                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm">Mauliyanto, E., & Sendjaja, S. (2026). <i>Pengaruh Starlink terhadap Strategi Business Continuity Plan pada Perusahaan Internet Service Provider di Indonesia</i>. Jurnal Informatika dan Bisnis, 14(1).</p>
-                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm">SpaceX. (2026). <i>Starlink Official Technology Specifications</i>. Diakses dari starlink.com.</p>
-                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm">IEEE Spectrum. (2026). <i>How Starlink’s Phased Array Antennas and Laser Inter-Satellite Links Work</i>.</p>
-                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm">Space News. (2026). <i>The Evolution of LEO Broadband: SpaceX and the Global Internet Divide</i>.</p>
+                <section id="pustaka" class="section-card bg-slate-50 dark:bg-slate-800/30 aesthetic:bg-cream border-slate-200 dark:border-slate-800 aesthetic:border-sage-light/20 p-6 md:p-10 rounded-3xl md:rounded-[2rem] scroll-mt-24">
+                    <h2 class="text-xl md:text-2xl mb-6 md:mb-8 text-slate-900 dark:text-white aesthetic:text-sage aesthetic:font-serif font-extrabold">13. Daftar Pustaka</h2>
+                    <div class="space-y-3 md:space-y-4 text-[10px] md:text-xs font-medium text-slate-500 dark:text-slate-400 aesthetic:text-sage-dark italic leading-relaxed">
+                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-3 md:p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm break-words">Rambe, R., Hermawan, F. F., & Saedudin, R. R. (2025). Dampak Masuknya Starlink ke Indonesia terhadap Keamanan Jaringan Nasional dengan Metode SLR (Systematics Literature Review). <i>Information System and Emerging Technology Journal</i>, 6(2), 43–53.</p>
+                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-3 md:p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm break-words">Kementerian Pertahanan RI. (2026). <i>Penjualan Starlink di Indonesia: Peluang dan Tantangan bagi Pertahanan Nasional</i>. Jakarta: Direktorat Veteran.</p>
+                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-3 md:p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm break-words">Ridwan, M., dkk. (2026). <i>Oligopoli Telekomunikasi dan Inovasi: Analisis Dampak Masuknya STARLINK bagi Industri Telekomunikasi di Indonesia</i>. Jurnal Ilmiah Ekonomi Dan Manajemen, 2(12).</p>
+                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-3 md:p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm break-words">Mauliyanto, E., & Sendjaja, S. (2026). <i>Pengaruh Starlink terhadap Strategi Business Continuity Plan pada Perusahaan Internet Service Provider di Indonesia</i>. Jurnal Informatika dan Bisnis, 14(1).</p>
+                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-3 md:p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm break-words">SpaceX. (2026). <i>Starlink Official Technology Specifications</i>. Diakses dari starlink.com.</p>
+                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-3 md:p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm break-words">IEEE Spectrum. (2026). <i>How Starlink’s Phased Array Antennas and Laser Inter-Satellite Links Work</i>.</p>
+                        <p class="bg-white dark:bg-slate-800 aesthetic:bg-white p-3 md:p-4 rounded-xl border border-slate-200 dark:border-slate-700 aesthetic:border-blush shadow-sm break-words">Space News. (2026). <i>The Evolution of LEO Broadband: SpaceX and the Global Internet Divide</i>.</p>
                     </div>
                 </section>
             </div>
         </main>
 
-        <!-- Footer -->
-        <footer class="bg-white dark:bg-slate-900 aesthetic:bg-sage border-t border-slate-200 dark:border-slate-800 aesthetic:border-sage-dark py-12 mt-auto transition-all">
-            <div class="max-w-5xl mx-auto px-6 text-center">
-                <p class="text-slate-400 aesthetic:text-cream/80 text-[10px] font-bold uppercase tracking-[0.2em] mb-4">Tugas Artikel Teknologi Jaringan Komputer - Kelompok 6</p>
-                <p class="font-extrabold text-slate-800 dark:text-white aesthetic:text-white aesthetic:font-serif text-sm">© 2026 • Azam, Fauzan, Dzaki, Nida, Olivia</p>
+        <!-- Footer (Mobile Fix) -->
+        <footer class="bg-white dark:bg-slate-900 aesthetic:bg-sage border-t border-slate-200 dark:border-slate-800 aesthetic:border-sage-dark py-8 md:py-12 mt-auto transition-all">
+            <div class="max-w-5xl mx-auto px-4 md:px-6 text-center">
+                <p class="text-slate-400 aesthetic:text-cream/80 text-[10px] md:text-xs font-bold uppercase tracking-wider md:tracking-[0.2em] mb-3 md:mb-4 leading-relaxed">Tugas Artikel Teknologi Jaringan Komputer - Kelompok 6</p>
+                <p class="font-extrabold text-slate-800 dark:text-white aesthetic:text-white aesthetic:font-serif text-xs md:text-sm leading-relaxed">© 2026 • Azam, Fauzan, Dzaki, Nida, Olivia</p>
             </div>
         </footer>
     </div>
